@@ -28,11 +28,11 @@ The user can access the mobile application to get the result which will be proce
 The image capture is preprocesses using otsu alogrithm and masks are used to define the plant area. Once plant area is confirmed the areas are calculated and the values like color and texture are takeng from image and then a dataset is created. Once data set is created the data is set for machine learning. We have used techniques like SVM, KNN classifier. We get best results for the given data.
 
 # Libraries & MachineLearning Models
-cv2 : To work on Images
-numpy & pandas : For working arrays and numerical values
-mahotas : For extracting features
-matplotlib: For plotting graphs
-shutil : For working on folders (copying images)
+cv2 : To work on Images <br>
+numpy & pandas : For working arrays and numerical values <br>
+mahotas : For extracting features <br>
+matplotlib: For plotting graphs <br>
+shutil : For working on folders (copying images) <br>
 
 ### Ml models:
 Suppor Vector Machine, Logistic Regression, KNN classifier
